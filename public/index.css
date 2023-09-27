@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+
+    background-color: lightblue;
+}
+
+div::after {
+    content: '这是css';
+    color: rgb(253, 4, 4);
+}
